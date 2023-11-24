@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    font-family: cursive;
+}
+.top{
+    background-image:linear-gradient(to left, #144272, #0a2647);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+#mainlogo{
+    width: 150px; 
+    height: 80px;
+}
+#menu {
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 5px 6px 9px 3px;
+}
+#search {
+    height: 50%; 
+    width: 250px; 
+    border: 1px solid white;
+    padding: 5px; 
+    color: white; 
+    border-radius: 10px; 
+    outline: none; 
+    background-color: transparent;
+    box-shadow: 5px 6px 9px 3px black;
+}
+#search::placeholder {
+    color: white;
+}
+.center {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.photos {
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    background-repeat: no-repeat;
+}
+
+.echo {
+    font-size: 20px; 
+    min-width: 400px;
+    font-family: cursive; 
+    position: absolute; 
+    top: 350px; 
+    margin-left: 50px; 
+    color: white; 
+    margin-top: 100px;
+    height: 40px;
+    padding: 20px;
+    background-image:linear-gradient(to left, #246fbf, #13437a);
+    border-radius: 0px 40px 40px 40px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+
+.container {
+    height: 250px;
+    min-width: 1000px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+#containerchild{
+    height: 250px;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 100px;
+    gap: 50px;
+    transition: transform 1s ease-in-out;
+}
+
+.item {
+    width: 200px;
+    min-width: 190px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.item img {
+    border-radius: 10px;
+}
+.item button {
+    color: white; 
+    background-color: #236dbc; 
+    width: 80%; 
+    height: 30px;
+    border-radius: 10px; 
+    box-shadow: 7px 7px 5px 0px black;
+    border: none;
+}
+.item span {
+    padding: 10px;
+    background-image: linear-gradient(to top, #236dbc, #0679fd96);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 7px 7px 5px 0px black;
+}
+.box {
+    min-width: 1000px;
+    height: 500px;
+    background-color:#0f3358;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.offers {
+    width: 80%;
+    display: flex;
+    gap: 15px;
+    align-self: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.boxchildes {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 15px;
+    border-radius: 20px;
+}
+.boxchildes span {
+    font-size: 20px;
+    color:#0a2647;
+}
+.boxchildes button {
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #246fbf;
+    color: white;
+    font-size: 18px;
+    align-self: center;
+    padding: 5px;
+    border: none;
+}
+
+.box .register {
+    margin-bottom: 25px;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #246fbf;
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    border: none;
+}
+.location {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #246fbf;
+    border-radius: 15px 4px 4px 15px;
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  select option {
+    padding: 10px;
+  }
+  
+  select::-webkit-scrollbar {
+    width: 12px;
+  }
+  select::-webkit-scrollbar-thumb {
+    background-color: #246fbf;
+    border-radius: 4px;
+  }
+  
+  select::-webkit-scrollbar-track {
+    background-color: #e2e2e2;
+  }
+
+  /* ZOGADI STYLE MORCHA AQ */
+
+  /* ARROWS */
+.arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+/* ARROWS */
